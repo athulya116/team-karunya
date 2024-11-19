@@ -82,10 +82,10 @@ Author URL: http://w3layouts.com
             </div>
             <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="">
               <div class="main-input">
-                <input type="text" name="w3lName" placeholder="Enter your name" class="contact-input" required="" />
-                <input type="email" name="w3lSender" placeholder="Enter your mail" class="contact-input" required="" />
+                <input type="text" name="name" placeholder="Enter your name" class="contact-input" required="" />
+                <input type="email" name="email" placeholder="Enter your mail" class="contact-input" required="" />
                 <!-- <input type="email" name="w3lSubject" placeholder="Subject" class="contact-input" /> -->
-                <textarea class="contact-textarea contact-input" name="w3lMessage" placeholder="Enter your message" required=""></textarea>
+                <textarea class="contact-textarea contact-input" name="message" placeholder="Enter your message" required=""></textarea>
               </div>
               <div class="text-right">
                 <button class="btn-primary btn theme-button">Send</button>
@@ -216,9 +216,9 @@ Author URL: http://w3layouts.com
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
-    </script>
-    <!-- //move top -->
-    <script>
+    
+   
+    
       $(function () {
         $('.navbar-toggler').click(function () {
           $('body').toggleClass('noscroll');
